@@ -47,7 +47,7 @@ export default function HeroSection() {
       {/* Content — bottom-left editorial layout */}
       <motion.div
         style={{ y: textY, opacity }}
-        className="relative z-20 h-full flex flex-col justify-end pb-16 md:pb-24 px-8 md:px-16 lg:px-24"
+        className="relative z-20 h-full flex flex-col justify-center md:justify-end pt-20 md:pt-0 pb-10 md:pb-24 px-8 md:px-16 lg:px-24"
       >
         {/* Label */}
         <motion.div
@@ -67,7 +67,7 @@ export default function HeroSection() {
           {/* Line 1 */}
           <div className="overflow-hidden">
             <motion.h1
-              className="font-display text-[clamp(2.4rem,6.5vw,6rem)] text-sakura leading-[0.92] tracking-tight font-light italic"
+              className="font-display text-[clamp(1.9rem,6.5vw,6rem)] text-sakura leading-[0.92] tracking-tight font-light italic"
               initial={{ x: -70, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 1.05, ease: [0.16, 1, 0.3, 1] }}
@@ -80,7 +80,7 @@ export default function HeroSection() {
           {/* Line 2: bold word + italic tagline on the same baseline */}
           <div className="overflow-hidden flex items-baseline flex-wrap gap-x-5 gap-y-1">
             <motion.h1
-              className="font-display text-[clamp(2.4rem,6.5vw,6rem)] text-petal leading-[0.92] tracking-tight font-semibold"
+              className="font-display text-[clamp(1.9rem,6.5vw,6rem)] text-petal leading-[0.92] tracking-tight font-semibold"
               initial={{ x: -70, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.65, duration: 1.05, ease: [0.16, 1, 0.3, 1] }}
@@ -88,7 +88,7 @@ export default function HeroSection() {
               Your practice
             </motion.h1>
             <motion.span
-              className="font-display text-[clamp(1.4rem,3.5vw,3.2rem)] text-rosegold/85 leading-none italic font-light"
+              className="font-display text-[clamp(1.1rem,3.5vw,3.2rem)] text-rosegold/85 leading-none italic font-light"
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.82, duration: 1.05, ease: [0.16, 1, 0.3, 1] }}
