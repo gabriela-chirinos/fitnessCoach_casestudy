@@ -1,10 +1,13 @@
-Live Preview: https://gabriela-chirinos.github.io/fitnessCoach_casestudy/
-
 🏋️‍♀️ Fitness Coach Case Study
 
 A custom-built frontend project exploring how to take an idea from concept to a fully implemented, responsive web experience.
 
 This project was designed as a portfolio piece for a fictional fitness coach, focusing on clean UI, responsive layout, and subtle animation to create a polished, modern feel.
+
+![fitnessCoach](https://github.com/user-attachments/assets/a06d8bd9-ef73-405c-9ee7-05eee825894a)
+
+
+Live Preview: https://gabriela-chirinos.github.io/fitnessCoach_casestudy/
 
 🧠 Project Overview
 
